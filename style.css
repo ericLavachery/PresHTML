@@ -1,0 +1,101 @@
+/*
+RESET css
+*/
+
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+padding: 0; margin: 0;
+}
+html,body{
+display: block;
+height: 100%; width: 100%;
+overflow: auto;
+}
+ul,li,a{
+margin: 0; padding: 0;
+list-style: none;
+text-decoration: none;
+}
+
+/*
+MAIN
+*/
+
+.main, .main-header, .main-container, .main-footer{
+  display: block;
+  width: 100%;
+}
+
+.main{
+  Height: 100%;
+}
+
+.main-header{
+  Height: auto;
+  background-color: white;
+}
+
+.main-container{
+  Height: auto;
+  background-color: #999999;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.block{
+  Height: auto;
+  margin-top: 20px;
+  margin-right: 45px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right:7px;
+  padding-left: 7px;
+  border-style: solid;
+  border-color: #848484;
+  border-width: 2px;
+
+}
+
+.main-footer{
+  Height: 50px;
+  background-color: #000000;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  white-space: nowrap;
+}
+
+
+.navig{
+  Height: auto;
+  background-color: black;
+  float: right;
+}
+
+.navig ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.navig li {
+    float: left;
+}
+
+.navig li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navig li a:hover {
+    background-color: #444;
+}
