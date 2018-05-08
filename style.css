@@ -34,8 +34,9 @@ MAIN
 }
 
 .main-header{
-  Height: auto;
-  background-color: white;
+  Height: 128px;
+  padding-left: 40px;
+  background-color: #454545;
 }
 
 .main-container{
