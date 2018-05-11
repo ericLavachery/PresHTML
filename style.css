@@ -34,15 +34,16 @@ MAIN
 }
 
 .main-header{
-  Height: 128px;
+  Height: 256px;
   padding-left: 40px;
-  background-color: #454545;
+  background-color: #D0DB7F;
+  vertical-align: middle;
 }
 
 .main-container{
   Height: auto;
-  background-color: #999999;
-  padding-left: 40px;
+  background-color: #CC0000;
+  padding-left: 53px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -50,15 +51,31 @@ MAIN
 .block{
   Height: auto;
   margin-top: 20px;
-  margin-right: 45px;
+  margin-right: 100px;
   padding-top: 7px;
   padding-bottom: 7px;
   padding-right:7px;
   padding-left: 7px;
   border-style: solid;
-  border-color: #848484;
+  border-color: #DD1111;
   border-width: 2px;
+  color: #EE8888;
+}
 
+h1{
+  color: #000000;
+}
+
+h3{
+  color: #FFFFFF;
+}
+
+.block a {
+    color: white;
+    text-decoration: none;
+}
+.block a:hover {
+    color: #000000;
 }
 
 .main-footer{
@@ -70,11 +87,14 @@ MAIN
   white-space: nowrap;
 }
 
-
 .navig{
   Height: auto;
-  background-color: black;
+  background-color: #CC0000;
   float: right;
+  margin-right: 100px;
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%);
 }
 
 .navig ul {
@@ -82,21 +102,27 @@ MAIN
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: #CC0000;
 }
 
 .navig li {
     float: left;
+    font-size: 20px;
 }
 
 .navig li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 20px;
     text-decoration: none;
 }
 
 .navig li a:hover {
-    background-color: #444;
+    color: black;
+    background-color: #F7B5B3;
+}
+
+.ici{
+  background-color: #000000;
 }

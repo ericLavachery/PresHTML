@@ -12,12 +12,13 @@
     logo
     menu avec presentation et concatct
     -->
-    <span><img src="Huvut.png" alt="" height="128"></span>
+    <span><img src="Huvut.png" alt="" height="256"></span>
 
     <span class="navig">
       <ul>
         <li><a href="index.html">Présentation</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="ici">Contact</a></li>
+        <li><a href="help.html">Aide</a></li>
       </ul>
     </span>
 
@@ -26,7 +27,7 @@
     <!--
  Formulaire
     -->
-    <h2 style="color:red;">Contact</h1>
+    <h1>Contact</h1>
     <div class="block">
       <form action="" method="post" enctype="text/plain">
         <p>Prénom</p>
@@ -35,8 +36,17 @@
         <p><input type="text" name="lastname"></p>
         <p>Email</p>
         <p><input type="email" name="email"></p>
-        <p>Comment</p>
-        <p><textarea rows="7" cols="50">
+        <p>Pourquoi me contacter?</p>
+        <p>
+          <select class="list" name="why">
+            <option value="3">Je voudrais aider pour cette histoire d'envahir la Chine </option>
+            <option value="1">J'attends le bus et je me fais chier </option>
+            <option value="2">Maman m'y oblige </option>
+            <option value="4">Je voudrais savoir comment on fait pour avoir un si bel avatar </option>
+          </select>
+        </p>
+        <p>Exprimez-vous!</p>
+        <p><textarea rows="5" cols="70">
        </textarea></p>
         <p><input type="submit" value="Send"></p>
       </form>
